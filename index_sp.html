@@ -29,17 +29,21 @@
             <div class="collapse navbar-collapse">
               <ul class="navbar-nav mb-2 mb-md-0">
                 <li class="nav-item active">
-                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" aria-current="page"
+                    href="https://www.rakuten.co.jp/honeys-drop/info.html">会社概要</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link" href="https://www.rakuten.co.jp/honeys-drop/info2.html">決済・配送・返品</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Disabled</a>
+                  <a class="nav-link"
+                    href="https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=373547&__event=ES01_003_001">カート</a>
                 </li>
               </ul>
-              <form class="d-flex w-75">
-                <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+              <form class="d-flex" name="myForm" method="get" action="https://esearch.rakuten.co.jp/rms/sd/isearch/vc"
+                accept-charset="EUC-JP">
+                <input type="hidden" name="sid" value="373547">
+                <input class="form-control mr-2" type="search" name="sitem" placeholder="キーワード検索" aria-label="Search">
                 <button class="btn btn-outline-secondary" type="submit">Search</button>
               </form>
             </div>
@@ -47,17 +51,20 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto mb-2 mb-md-0 d-lg-none">
               <li class="nav-item active">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="https://www.rakuten.co.jp/honeys-drop/info.html">会社概要</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="https://www.rakuten.co.jp/honeys-drop/info2.html">決済・配送・返品</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link"
+                  href="https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=373547&__event=ES01_003_001">カート</a>
               </li>
             </ul>
-            <form class="d-flex d-lg-none">
-              <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+            <form class="d-flex d-lg-none" name="myForm" method="get"
+              action="https://esearch.rakuten.co.jp/rms/sd/isearch/vc" accept-charset="EUC-JP">
+              <input type="hidden" name="sid" value="373547">
+              <input class="form-control mr-2" type="search" name="sitem" placeholder="キーワード検索" aria-label="Search">
               <button class="btn btn-outline-secondary" type="submit">Search</button>
             </form>
           </div>
@@ -81,18 +88,6 @@
         </div>
         <div class="carousel-item">
           <img src="./img/slide_03.jpg" alt="" class="d-block m-auto">
-          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-            <rect width="100%" height="100%" fill="#777" /></svg>
-
-          <div class="container">
-            <div class="carousel-caption text-right">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
-                metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div>
-          </div> -->
         </div>
       </div>
       <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -133,7 +128,6 @@
             日本人向けのはちみつとして人気があり、クセがないので砂糖の代わりとしても活用しやすい魅力があるはちみつです。一般的なはちみつよりも糖分は少なめです。<br>
             はちみつのもつ殺菌作用や、成分中に含まれるグルコン酸のビフィズス菌を増やす作用などから解熱、消化器の調子を整え便秘を解消へと導く効果もあるとされています。便秘を解消し腸内の老廃物を排出することは健康と美容においても重要なことで、腸内の環境を整えながらビタミンやミネラルを摂取できることから肌を美しく健やかな状態へと導いてくれます。
             喉や気管支に対しても有効とされているので、喉の調子が悪い時に摂取してみるのもおすすめです。</p>
-          <p class="text-center mb-5"><a class="btn btn-secondary" href="#" role="button">商品詳細を見る &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </section><!-- /.row -->
 
@@ -144,21 +138,17 @@
       <section class="featurette">
         <div class="row py-5">
           <div class="col-md-7">
-            <h2 class="featurette-heading">もちの木蜜<br><span class="text-muted h6">リラックス効果のあるはちみつ</span>
+            <h2 class="featurette-heading">アカシア蜂蜜<br><span class="text-muted h6">どんな用途にも使える万能はちみつ</span>
             </h2>
-            <p class="featurette__text py-3">フルーティーな味。
-              他のはちみつと比べると少し粘り気があり、もっちりした食感が特徴です。ややハーブ系の香りがするさっぱりした味です。<br>
-              生姜やレモンを漬けたものを炭酸やお湯で割って飲むのがおススメです。癖が少なく、口に入れた後さらに味わいが広がるため、トーストに合います。
-              リラックス効果があり、脳の活性化を促進します。アルツハイマーの防止にもなると言われています。</p>
-            <p class="text-center mb-5"><a class="btn btn-secondary" href="#" role="button">商品詳細を見る &raquo;</a></p>
+            <p class="featurette__text py-3">上品な香りとクセのないさっぱりとした味わいで、食べた後も喉に絡みつくような甘さがなくすっきりとしているため、食べやすい特徴があります。<br>
+              日本人向けのはちみつとして人気があり、クセがないので砂糖の代わりとしても活用しやすい魅力があるはちみつです。一般的なはちみつよりも糖分は少なめです。
+              はちみつのもつ殺菌作用や、成分中に含まれるグルコン酸のビフィズス菌を増やす作用などから解熱、消化器の調子を整え便秘を解消へと導く効果もあるとされています。便秘を解消し腸内の老廃物を排出することは健康と美容においても重要なことで、腸内の環境を整えながらビタミンやミネラルを摂取できることから肌を美しく健やかな状態へと導いてくれます。
+              喉や気管支に対しても有効とされているので、喉の調子が悪い時に摂取してみるのもおすすめです。</p>
+            <p class="text-center mb-5"><a class="btn btn-secondary"
+                href="https://item.rakuten.co.jp/honeys-drop/akasia-150/" role="button">商品詳細を見る &raquo;</a></p>
           </div>
           <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-              height="500" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-            </svg>
+            <img src="./img/top_section_1.jpg" alt="アカシア蜂蜜" class="img-fluid">
           </div>
         </div>
 
@@ -166,44 +156,17 @@
 
         <div class="row py-5">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">もちの木蜜<br><span class="text-muted h6">リラックス効果のあるはちみつ</span>
+            <h2 class="featurette-heading">みかん蜜<br><span class="text-muted h6">風邪の対策や肌トラブル対策に</span>
             </h2>
-            <p class="featurette__text py-3">フルーティーな味。
-              他のはちみつと比べると少し粘り気があり、もっちりした食感が特徴です。ややハーブ系の香りがするさっぱりした味です。<br>
-              生姜やレモンを漬けたものを炭酸やお湯で割って飲むのがおススメです。癖が少なく、口に入れた後さらに味わいが広がるため、トーストに合います。
-              リラックス効果があり、脳の活性化を促進します。アルツハイマーの防止にもなると言われています。</p>
+            <p class="featurette__text py-3">じわじわやってくる上品な甘みで、さわやかな風味。クセが少なく、蜂蜜が苦手な方でも食べやすいのが特徴です。 柑橘の香りが好きな方におすすめです。
+              みかんを連想させるような美しい金色をしています。<br>
+              控えめな甘さで、料理の隠し味にもピッタリです。幅広く使うことができます。みかん蜂蜜の風味を引き出す食べ方は、紅茶やトーストなどシンプルに使うのがおすすめです。特に、プレーンヨーグルトとの相性は抜群で、ヨーグルトの酸味を柔らかくしてくれるうえに、腸内を整えるビフィズス菌を効率よく摂る手助けをしてくれます。<br>
+              風邪のひきはじめで体力が落ちている方や、肌トラブルを改善し健康的な美肌を目指したい方におすすめです。
+            </p>
             <p class="text-center mb-5"><a class="btn btn-secondary" href="#" role="button">商品詳細を見る &raquo;</a></p>
           </div>
           <div class="col-md-5 order-md-1">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-              height="500" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-            </svg>
-
-          </div>
-        </div>
-
-        <hr>
-
-        <div class="row py-5">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">もちの木蜜<br><span class="text-muted h6">リラックス効果のあるはちみつ</span>
-            </h2>
-            <p class="featurette__text py-3">フルーティーな味。
-              他のはちみつと比べると少し粘り気があり、もっちりした食感が特徴です。ややハーブ系の香りがするさっぱりした味です。<br>
-              生姜やレモンを漬けたものを炭酸やお湯で割って飲むのがおススメです。癖が少なく、口に入れた後さらに味わいが広がるため、トーストに合います。
-              リラックス効果があり、脳の活性化を促進します。アルツハイマーの防止にもなると言われています。</p>
-            <p class="text-center mb-5"><a class="btn btn-secondary" href="#" role="button">商品詳細を見る &raquo;</a></p>
-          </div>
-          <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-              height="500" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-            </svg>
+            <img src="./img/top_section_2.jpg" alt="みかん蜜" class="img-fluid">
           </div>
         </div>
       </section>
@@ -211,82 +174,7 @@
       <!-- /END THE FEATURETTES -->
       <section class="item-list pb-5">
         <h2 class="item-list__tile text-center py-5"><span class="title-decoration">商品ラインナップ</span></h2>
-        <div class="row">
-          <div class="col-6 col-md-3 my-4 text-center">
-            <a href="#" class="text-muted">
-              <div>
-                <img src="./img/item_01.jpg" class="img-fluid" alt="">
-                <h3 class="h6">（150g）蜂の雫蜜アカシア蜜</h3>
-                <p>¥ 6,525</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-6 col-md-3 my-4 text-center">
-            <a href="#" class="text-muted">
-              <div>
-                <img src="./img/item_01.jpg" class="img-fluid" alt="">
-                <h3 class="h6">（150g）蜂の雫蜜アカシア蜜</h3>
-                <p>¥ 6,525</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-6 col-md-3 my-4 text-center">
-            <a href="#" class="text-muted">
-              <div>
-                <img src="./img/item_01.jpg" class="img-fluid" alt="">
-                <h3 class="h6">（150g）蜂の雫蜜アカシア蜜</h3>
-                <p>¥ 6,525</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-6 col-md-3 my-4 text-center">
-            <a href="#" class="text-muted">
-              <div>
-                <img src="./img/item_01.jpg" class="img-fluid" alt="">
-                <h3 class="h6">（150g）蜂の雫蜜アカシア蜜</h3>
-                <p>¥ 6,525</p>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-6 col-md-3 my-4 text-center">
-            <a href="#" class="text-muted">
-              <div>
-                <img src="./img/item_01.jpg" class="img-fluid" alt="">
-                <h3 class="h6">（150g）蜂の雫蜜アカシア蜜</h3>
-                <p>¥ 6,525</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-6 col-md-3 my-4 text-center">
-            <a href="#" class="text-muted">
-              <div>
-                <img src="./img/item_01.jpg" class="img-fluid" alt="">
-                <h3 class="h6">（150g）蜂の雫蜜アカシア蜜</h3>
-                <p>¥ 6,525</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-6 col-md-3 my-4 text-center">
-            <a href="#" class="text-muted">
-              <div>
-                <img src="./img/item_01.jpg" class="img-fluid" alt="">
-                <h3 class="h6">（150g）蜂の雫蜜アカシア蜜</h3>
-                <p>¥ 6,525</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-6 col-md-3 my-4 text-center">
-            <a href="#" class="text-muted">
-              <div>
-                <img src="./img/item_01.jpg" class="img-fluid" alt="">
-                <h3 class="h6">（150g）蜂の雫蜜アカシア蜜</h3>
-                <p>¥ 6,525</p>
-              </div>
-            </a>
-          </div>
-        </div>
+        <div class="row" id="lineup"></div>
       </section>
     </div><!-- /.container -->
     <!-- FOOTER -->
@@ -303,7 +191,7 @@
       </div>
     </footer>
   </main>
-  <script src="./js/main.bundle.js?2020"></script>
+  <script src="./js/main.bundle.js?2020_0924"></script>
 
 </body>
 
